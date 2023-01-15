@@ -31,9 +31,9 @@ class _SocialMediaPageDetailsState extends State<SocialMediaDetailsPage> {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
+
       children: <Widget>[
-        Expanded(
-            child: Align(
+        Align(
           alignment: Alignment.topRight,
           child: TextButton(
             onPressed: () {},
@@ -44,7 +44,47 @@ class _SocialMediaPageDetailsState extends State<SocialMediaDetailsPage> {
               ),
             ),
           ),
-        ))
+        ),
+        const Text(
+          'Social Media',
+          textAlign: TextAlign.left,
+          style: TextStyle(
+            color: Colors.green,
+          ),
+        ),
+        const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+          child: TextField(
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              hintText: 'Instagram',
+            ),
+          ),
+        ),const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+          child: TextField(
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              hintText: 'LinkedIn',
+            ),
+          ),
+        ),const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+          child: TextField(
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              hintText: 'Snapchat',
+            ),
+          ),
+        ),const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+          child: TextField(
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              hintText: 'Twitter',
+            ),
+          ),
+        ),
       ],
     );
   }
