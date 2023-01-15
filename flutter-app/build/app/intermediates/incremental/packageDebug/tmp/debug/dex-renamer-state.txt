@@ -1,0 +1,4 @@
+#Sat Jan 14 23:57:25 MST 2023
+base.0=/Users/inioluwaadeniyi/AndroidStudioProjects/StudentConnectApp/flutter-app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
